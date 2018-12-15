@@ -77,7 +77,7 @@ This Prototype is based on VanillaJS and PHP.
 4. HTTPS PHP Client Server get the data from Amazon skill and change the status to react with web-browser.
 
   
-![unadjustednonraw_thumb_145f](https://user-images.githubusercontent.com/37642778/49697990-5f5e9100-fc01-11e8-9af9-daf78ab3de89.jpg)
+![unadjustednonraw_thumb_145f](https://user-images.githubusercontent.com/37642778/50039282-0c5a6300-0073-11e9-8a0c-e5ffc63c2f3a.jpg)
 
 
 
