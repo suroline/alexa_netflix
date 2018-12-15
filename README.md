@@ -114,10 +114,10 @@ class DBinfo {
 > <h4>HTTPS PHP Client Server</h4>
 
 
-Put control.php file on your own server and add address in here : 
+Put app.js file on your own server and add address in here : 
 
 ```
-file name: control.php
+file name: app.js
 
 function requestAlexaStatusHTTP(){
   if (request_started == false) {
