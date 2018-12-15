@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="expires" content="Sun, 01 Jan 2014 00:00:00 GMT"/>
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <title>Netflix ticketing with Alexa</title>
+</head>
+
+<body>
+    <div class="pinning-header">
+        <div class="pinning-header-container">
+            <div class="main-header">
+                <a href="/">
+                    <img src="./img/netflix-logo.png" alt="Netflix" class="logo">
+                </a>
+                <ul class="tabbed-primary-navigation">
+                    <li class="navigation-tab"><a href="#" class="movies current active">Movies</a></li>
+                    <li class="navigation-tab"><a href="#" class="ticketing">Ticketing</a></li>
+                    <li class="navigation-tab"><a href="#">My Tickets</a></li>
+                </ul>
+                <div class="secondary-navigation">
+                    <div class="nav-element">
+                        <button class="search-tab">
+
+                            <span class="icon-search"><svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+                            <desc>Created with Sketch.</desc>
+                            <defs>
+                                <path d="M18.7602948,17.9244468 L23.0935988,22.5713464 C23.7741986,23.3012004 23.7342702,24.4445991 23.0044163,25.1251989 C22.2745623,25.8057988 21.1311636,25.7658704 20.4505638,25.0360164 L15.9439917,20.2033096 C15.0165994,20.6267464 13.9829234,20.863112 12.8930992,20.863112 C8.88794313,20.863112 5.64112263,17.6707634 5.64112263,13.7328017 C5.64112263,9.79484001 8.88794313,6.60249133 12.8930992,6.60249133 C16.8982553,6.60249133 20.1450758,9.79484001 20.1450758,13.7328017 C20.1450758,15.2993545 19.6312624,16.7479132 18.7602948,17.9244468 Z M12.8930992,18.0109879 C15.2961928,18.0109879 17.2442851,16.0955787 17.2442851,13.7328017 C17.2442851,11.3700247 15.2961928,9.45461547 12.8930992,9.45461547 C10.4900056,9.45461547 8.54191326,11.3700247 8.54191326,13.7328017 C8.54191326,16.0955787 10.4900056,18.0109879 12.8930992,18.0109879 Z" id="path-1"></path>
+                            </defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="home" transform="translate(-1058.000000, -24.000000)">
+                                    <g id="header">
+                                        <g id="secondary-nav" transform="translate(1053.000000, 18.000000)">
+                                            <g id="search">
+                                                <mask id="mask-2" fill="white">
+                                                    <use xlink:href="#path-1"></use>
+                                                </mask>
+                                                <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" transform="translate(14.610079, 16.106563) rotate(-4.000000) translate(-14.610079, -16.106563) " xlink:href="#path-1"></use>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                                </g>
+                            </svg></span>
+
+                        </button>
+                    </div>
+                    <div class="nav-element"><a href="#">NETFLIX for Home</a></div>
+                    <div class="nav-element">
+                        <button class="notification"><span class="icon-notification">
+                            <svg width="20px" height="23px" viewBox="0 0 20 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="home" transform="translate(-1246.000000, -22.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <g id="header">
+                                    <g id="secondary-nav" transform="translate(1053.000000, 18.000000)">
+                                        <g id="alart" transform="translate(187.000000, 0.000000)">
+                                            <path d="M16,27 C17.375,27 18.5,25.8923077 18.5,24.5384615 L13.5,24.5384615 C13.5,25.8923077 14.6125,27 16,27 Z M23.5,19.5171285 L23.5,14.3030303 C23.5,10.5818182 21.45,7.46666667 17.875,6.64242424 L17.875,5.81818182 C17.875,4.81212121 17.0375,4 16,4 C14.9625,4 14.125,4.81212121 14.125,5.81818182 L14.125,6.64242424 C10.5375,7.46666667 8.5,10.569697 8.5,14.3030303 L8.5,19.5171285 C8.5,20.0582311 8.28074942,20.576243 7.89229167,20.9529293 L6.8701823,21.9440657 C6.31394662,22.4834457 6,23.225191 6,24 L26,24 L26,24 C26,23.225191 25.6860534,22.4834457 25.1298177,21.9440657 L24.1077083,20.9529293 C23.7192506,20.576243 23.5,20.0582311 23.5,19.5171285 Z" id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                                </g>
+                            </g>
+                            </svg></span>
+                        </button>
+                    </div>
+                    <div class="nav-element">
+                        <div class="account-menu-item">
+                            <span class="profile-link"><img src="./img/mypage.png" class="profile-icon"></span>
+                            <span class="caret"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-header">
+                <div class="sub-header-wrapper">
+                    <span class="title">Movies</span>
+                    <div class="place-selecter">
+                        <div class="place-selecter-container">
+                            <div class="label">Seattle</div>
+                            <span class="arrow"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-view">
+        <div class="row-container">
+            <div class="row movie-row">
+                <h2 class="row-header"><div class="row-header-title">Playing now</div></h2>
+                <div class="card-container movie-card">
+                    <div class="slider">
+                        <ul class="pagination-indicator">
+                            <li class="active"></li>
+                            <li></li>
+                        </ul>
+                        <div class="slider-mask first-row">
+                            <div class="slider-item slider-item-0">
+                                <div class="slider-card">
+                                    <a href="#"><div class="slider-card-container"><img src="./img/movie01.png" class="slider-card-container-img"></div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item slider-item-1">
+                                <div class="slider-card">
+                                    <a href="#"><div class="slider-card-container"><img src="./img/movie02.png" class="slider-card-container-img"></div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item slider-item-2">
+                                <div class="slider-card">
+                                    <a href="#"><div class="slider-card-container"><img src="./img/movie03.png" class="slider-card-container-img"></div></a>
+                                </div>   
+                            </div>
+                            <div class="slider-item slider-item-3">
+                                <div class="slider-card">
+                                    <a href="#"><div class="slider-card-container"><img src="./img/movie04.png" class="slider-card-container-img"></div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item slider-item-4">
+                                <div class="slider-card">
+                                    <a href="#"><div class="slider-card-container"><img src="./img/movie05.png" class="slider-card-container-img"></div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item slider-item-5">
+                                <div class="slider-card">
+                                    <a href="#"><div class="slider-card-container"><img src="./img/movie06.png" class="slider-card-container-img"></div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item slider-item-6">
+                                <div class="slider-card">
+                                    <a href="#"><div class="slider-card-container"><img src="./img/movie07.png" class="slider-card-container-img"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="jaw-bone-content">    
+                        <span class="jaw-bone-open-container">
+                            <div class="jaw-bone-fade-in-container">
+                                <div class="jaw-bone-container">
+                                    <div class="background">
+                                        <div class="image-rotator"></div>
+                                        <div class="vignette"></div>
+                                        <div class="nav-shadow"></div>
+                                    </div>
+                                    <div class="jaw-bone">
+                                        <div class="bone-container">
+                                            <h3><div class="jaw-bone-title"></div></h3>
+                                            <div class="jaw-bone-common">
+                                                <div class="jaw-bone-panes">
+                                                    <div class="jaw-bone-pane">
+                                                        <div class="jaw-bone-overview">
+                                                            <div class="jaw-bone-overview-info"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="jaw-menu">
+                                                <li class="overview current">overview<span></span></li>
+                                                <li class="reviews">reviews<span></span></li>
+                                                <li class="more">trailers & more<span></span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a class="close-btn"></a>
+                                </div>
+                            </div>
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="row movie-row second">
+                <h2 class="row-header">
+                    <div class="row-header-title">Coming soon</div>
+                </h2>
+                <div class="card-container movie-card">
+                    <ul class="pagination-indicator">
+                        <li class="active"></li>
+                        <li></li>
+                    </ul>
+                    <div class="slider">
+                        <div class="slider-mask">
+                            <div class="slider-item slider-item-0">
+                                <div class="slider-card">
+                                    <a href="#">
+                                        <div class="slider-card-container"><img src="./img/movie2-01.png" class="slider-card-container-img"></div>
+                                    </a>
+                                </div>
+                                <div class="card-focused"></div>
+                            </div>
+                            <div class="slider-item slider-item-1">
+                                <div class="slider-card">
+                                    <a href="#">
+                                        <div class="slider-card-container"><img src="./img/movie2-02.png" class="slider-card-container-img"></div>
+                                    </a>
+                                </div>
+                                <div class="card-focused"></div>
+                            </div>
+                            <div class="slider-item slider-item-2">
+                                <div class="slider-card">
+                                    <a href="#">
+                                        <div class="slider-card-container"><img src="./img/movie2-03.png" class="slider-card-container-img"></div>
+                                    </a>
+                                </div>
+                                <div class="card-focused"></div>
+                            </div>
+                            <div class="slider-item slider-item-3">
+                                <div class="slider-card">
+                                    <a href="#">
+                                        <div class="slider-card-container"><img src="./img/movie2-04.png" class="slider-card-container-img"></div>
+                                    </a>
+                                </div>
+                                <div class="card-focused"></div>
+                            </div>
+                            <div class="slider-item slider-item-4">
+                                <div class="slider-card">
+                                    <a href="#">
+                                        <div class="slider-card-container"><img src="./img/movie2-05.png" class="slider-card-container-img"></div>
+                                    </a>
+                                </div>
+                                <div class="card-focused"></div>
+                            </div>
+                            <div class="slider-item slider-item-5">
+                                <div class="slider-card">
+                                    <a href="#">
+                                        <div class="slider-card-container"><img src="./img/movie2-06.png" class="slider-card-container-img"></div>
+                                    </a>
+                                </div>
+                                <div class="card-focused"></div>
+                            </div>
+                            <div class="slider-item slider-item-6">
+                                <div class="slider-card">
+                                    <a href="#">
+                                        <div class="slider-card-container"><img src="./img/movie2-07.png" class="slider-card-container-img"></div>
+                                    </a>
+                                </div>
+                                <div class="card-focused"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last-select-container"></div>
+    <div class="voice-bar">
+        <div class="alexa-integration">
+            <div class="cirle loader"></div>
+        </div>
+        <div class="alexa-speaking-container">
+            <div class="alexa-speaking"></div>
+            <div class="helper-container">
+                <div class="helper-row">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- javascript -->
+
+    <script src="./js/app_interaction_re.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/data_sample.js"></script>
+    <script src="./js/app_svg.js"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+</body>
+
+</html>
