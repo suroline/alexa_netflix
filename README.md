@@ -39,7 +39,7 @@ The main home page consist with the content list of movie playing now and coming
 
 > <h4>Alexa wake-up page</h4>
 
-When user wakes-up Alexa and ask for booking the specific movie ticket, the voice-bar comes out with Alexa's speech script and sample keywords to help user to communicate with Alexa and continue to the next tesk more easily. 
+When user wakes-up Alexa and ask for booking the specific movie ticket, the voice-bar comes out with Alexa's speech script and sample keywords to help user to communicate with Alexa and continue to the next task more easily. 
 
 ![home-selected](https://user-images.githubusercontent.com/37642778/49684568-cbb19580-fb18-11e8-9896-9f652da91eff.png)
 
@@ -53,7 +53,7 @@ The page that user filters the information to find out the proper ticket to book
 
 > <h4>Confirmed Reservation page</h4>
 
-The page that user finally finish the tesk. After complete the tesk, voice-bar go back to where it was and tell user to call back anytime when user need another help.
+The page that user finally finish the task. After complete the task, voice-bar go back to where it was and tell user to call back anytime when user need another help.
 
 ![ticket](https://user-images.githubusercontent.com/37642778/49841811-5ede1a00-fdfc-11e8-816c-69dadbb25582.png)
 
@@ -71,7 +71,7 @@ Check this video to see the strong point of voice-based web-site usability.
 
 This Prototype is based on VanillaJS and PHP.
 
-1. User wakes up Alexa with skill name Suroline and trigger the intent word to ask the certain tesk.
+1. User wakes up Alexa with skill name Suroline and trigger the intent word to ask the certain task.
 2. Amazon Skill server finds the right slot that matches to the user intent word.
 3. Amazone Skill server send the data back to Echo for the proper feedback speech and to the HTTPS PHP Client Server at the same time.
 4. HTTPS PHP Client Server get the data from Amazon skill and change the status to react with web-browser.
